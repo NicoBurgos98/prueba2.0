@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cuadrado">
+
+    <TextView
+        android:id="@+id/idtxtcuadrado1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textAlignment="center"
+        android:text="GEOMETRIA"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/idtxtcuadrado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Calcular el Area"
+        android:textSize="19sp"
+        />
+
+    <EditText
+        android:id="@+id/idBaseRectangulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresar Base"
+        android:textAlignment="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/idalturaRectangulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingresar Altura"
+        android:textAlignment="center"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/idcalcularCuadrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AreaRec"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/idresultadorectangulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aqui va el Resultado"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
